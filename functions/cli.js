@@ -2,6 +2,10 @@
 const readline = require('readline');
 const rl = readline.createInterface(process.stdin, process.stdout);
 
+rl.on('line', (line) => {
+  console.log(line)
+});
+
 rl.question(`\nWARNING: The back fill process will index your entire collection which will impact your Search Operation Quota.  Please visit https://www.algolia.com/doc/faq/accounts-billing/how-algolia-count-records-and-operation/ for more details.  Do you want to continue? (y/N): `, function(answer) {
   const value = answer || 'n'
   if ('y' === value.toLowerCase()) {
