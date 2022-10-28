@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.17](https://github.com/benomatis/firestore-algolia-search/compare/v0.5.16...v0.5.17) (2022-10-28)
+
+
+### Features
+
+* offer choice to choose between multi-line params vs interactive cli inputs for import process ([88d727c](https://github.com/benomatis/firestore-algolia-search/commit/88d727ce2825f9a1672e881c9bfd603e20dd11d9))
+
 ### 0.5.16 (2022-10-28)
 
 
